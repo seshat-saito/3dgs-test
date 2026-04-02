@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>3DGS Viewer</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+  </style>
+</head>
+<body>
+  <script type="module">
+    import { Viewer } from "https://cdn.jsdelivr.net/npm/@playcanvas/supersplat-viewer/dist/supersplat-viewer.esm.js";
+
+    new Viewer({
+      url: "./input.splat"
+    });
+  </script>
+</body>
+</html>
